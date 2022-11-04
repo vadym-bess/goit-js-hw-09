@@ -12,7 +12,9 @@ function getRandomHexColor() {
   }
 
 function onStartButtonClik() {
-
+if (intervalID) {
+  return;
+}
     intervalID = setInterval(() => {
 
          document.body.style.backgroundColor = getRandomHexColor();

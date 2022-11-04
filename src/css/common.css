@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+display: flex;
+justify-content: center;
+gap: 30px;
+font-size: large;
+}
+
+.field{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: smaller;
+}
+
+.value{
+  font-size: xx-large;
+}
+
+.inputarea{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.label{
+  font-weight: 600;
+}
