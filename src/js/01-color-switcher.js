@@ -12,14 +12,13 @@ function getRandomHexColor() {
   }
 
 function onStartButtonClik() {
-if (intervalID) {
-  return;
-}
+    if (intervalID) {
+      return;
+};
     intervalID = setInterval(() => {
 
-         document.body.style.backgroundColor = getRandomHexColor();
-     }, 1000);
-     
+      document.body.style.backgroundColor = getRandomHexColor();
+     }, 1000);  
 };
 
 function onStopButtonClik() {
